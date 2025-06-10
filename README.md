@@ -65,18 +65,7 @@ For more information on using the Angular CLI, including detailed command refere
 - Create basic project folder structure with pages
 - Configure routing using `provideRouter` and lazy-loaded routes
 - Ensure navigation using `<a routerLink="...">` works
-
-## 📁 Project Structure
-src/
-├── app/
-│ ├── app.component.ts
-│ ├── app.component.html
-│ ├── app.routes.ts
-│ └── pages/
-│ ├── home/
-│ ├── about/
-│ └── contact/
-├── main.ts
+---------------------------------Day1-----------------------------------------
 
 # Day 2: Component Communication, Data Binding & Lifecycle Hooks
 
@@ -92,26 +81,7 @@ src/
 3. Observe lifecycle log messages in browser console
 4. Style with basic layout
 5. Push changes to GitHub
-
-## 📦 Folder Structure
-src/
-├── app/
-
-│   ├── app.component.ts
-│   ├── app.component.html
-│   ├── app.component.css
-│   ├── app.routes.ts
-│   └── pages/
-│       ├── parent/
-│       │   ├── parent.component.ts
-│       │   ├── parent.component.html
-│       │   └── parent.component.css
-│       └── child/
-│           ├── child.component.ts
-│           ├── child.component.html
-│           └── child.component.css
-├── main.ts
-
+---------------------------------Day2-----------------------------------------
 
 # Usefull Commands
 ## Check current changes
