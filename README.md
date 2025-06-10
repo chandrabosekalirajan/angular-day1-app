@@ -57,3 +57,43 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+# Day 1: Angular Project Setup & Routing (Standalone Components)
+
+## ✅ Objectives
+- Set up a fresh Angular 19 project using standalone components
+- Create basic project folder structure with pages
+- Configure routing using `provideRouter` and lazy-loaded routes
+- Ensure navigation using `<a routerLink="...">` works
+
+## 📁 Project Structure
+
+# Day 2: Component Communication, Data Binding & Lifecycle Hooks
+
+## ✅ Objectives
+- Create `ParentComponent` and `ChildComponent`
+- Use `@Input()` and `@Output()` for data flow
+- Log lifecycle hooks in console
+- Build UI to interact between components
+
+## 🛠 Tasks
+1. Show message from Parent in Child via `@Input()`
+2. On button click in Child, send message to Parent using `@Output()`
+3. Observe lifecycle log messages in browser console
+4. Style with basic layout
+5. Push changes to GitHub
+
+## 📦 Folder Structure
+
+
+## Usefull Commands
+# Check current changes
+git status
+
+# Add and commit
+git add .
+git commit -m "Day 1: Setup project with routing"
+
+# Push to GitHub
+git push -u origin main
+
