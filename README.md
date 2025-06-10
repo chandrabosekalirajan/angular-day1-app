@@ -67,6 +67,16 @@ For more information on using the Angular CLI, including detailed command refere
 - Ensure navigation using `<a routerLink="...">` works
 
 ## 📁 Project Structure
+src/
+├── app/
+│ ├── app.component.ts
+│ ├── app.component.html
+│ ├── app.routes.ts
+│ └── pages/
+│ ├── home/
+│ ├── about/
+│ └── contact/
+├── main.ts
 
 # Day 2: Component Communication, Data Binding & Lifecycle Hooks
 
@@ -84,16 +94,23 @@ For more information on using the Angular CLI, including detailed command refere
 5. Push changes to GitHub
 
 ## 📦 Folder Structure
+src/
+├── app/
+│ ├── app.component.ts
+│ ├── app.routes.ts
+│ └── pages/
+│ ├── parent/
+│ └── child/
 
 
-## Usefull Commands
-# Check current changes
+# Usefull Commands
+## Check current changes
 git status
 
-# Add and commit
+## Add and commit
 git add .
 git commit -m "Day 1: Setup project with routing"
 
-# Push to GitHub
+## Push to GitHub
 git push -u origin main
 
