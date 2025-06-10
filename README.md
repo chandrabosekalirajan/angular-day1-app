@@ -95,7 +95,6 @@ src/
 
 ## 📦 Folder Structure
 src/
-
 ├── app/
 
 │   ├── app.component.ts
