@@ -96,11 +96,20 @@ src/
 ## 📦 Folder Structure
 src/
 ├── app/
-│ ├── app.component.ts
-│ ├── app.routes.ts
-│ └── pages/
-│ ├── parent/
-│ └── child/
+│   ├── app.component.ts
+│   ├── app.component.html
+│   ├── app.component.css
+│   ├── app.routes.ts
+│   └── pages/
+│       ├── parent/
+│       │   ├── parent.component.ts
+│       │   ├── parent.component.html
+│       │   └── parent.component.css
+│       └── child/
+│           ├── child.component.ts
+│           ├── child.component.html
+│           └── child.component.css
+├── main.ts
 
 
 # Usefull Commands
